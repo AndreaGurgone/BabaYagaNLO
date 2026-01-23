@@ -1,0 +1,21 @@
+fs mr
+nev 10000
+path test/
+ord exp
+model matched
+mode weighted
+arun nsk
+nphot -1
+saveevents yes
+emin 0.08d0
+eps 1.d-5
+thmin 15.d0
+thmax 165.d0
+thgmin 0.d0
+thgmax 180.d0
+egmin 0.02d0
+massmin 0.d0
+massmax 3.773d0
+ecms 3.773d0
+seed 42
+run

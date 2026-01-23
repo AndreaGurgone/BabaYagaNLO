@@ -1,0 +1,931 @@
+
+            include 'pipirad/hard/diagram1_1.F'
+             elmat1=elmat1+elmat
+            include 'pipirad/hard/diagram1_2.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram1_3.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram1_4.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram1_5.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram1_6.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram1_7.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram1_8.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram1_9.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram1_10.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram1_11.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram1_12.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram1_13.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram1_14.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram1_15.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram1_16.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram1_17.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram1_18.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram1_19.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram1_20.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram1_21.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram1_22.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram1_23.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram1_24.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram1_25.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram1_26.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram1_27.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram1_28.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram1_29.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram1_30.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram2_2.F'
+             elmat1=elmat1+elmat
+            include 'pipirad/hard/diagram2_3.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram2_4.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram2_5.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram2_6.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram2_7.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram2_8.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram2_9.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram2_10.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram2_11.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram2_12.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram2_13.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram2_14.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram2_15.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram2_16.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram2_17.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram2_18.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram2_19.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram2_20.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram2_21.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram2_22.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram2_23.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram2_24.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram2_25.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram2_26.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram2_27.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram2_28.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram2_29.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram2_30.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram3_3.F'
+             elmat1=elmat1+elmat
+            include 'pipirad/hard/diagram3_4.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram3_5.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram3_6.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram3_7.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram3_8.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram3_9.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram3_10.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram3_11.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram3_12.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram3_13.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram3_14.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram3_15.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram3_16.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram3_17.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram3_18.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram3_19.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram3_20.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram3_21.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram3_22.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram3_23.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram3_24.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram3_25.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram3_26.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram3_27.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram3_28.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram3_29.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram3_30.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram4_4.F'
+             elmat1=elmat1+elmat
+            include 'pipirad/hard/diagram4_5.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram4_6.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram4_7.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram4_8.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram4_9.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram4_10.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram4_11.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram4_12.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram4_13.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram4_14.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram4_15.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram4_16.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram4_17.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram4_18.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram4_19.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram4_20.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram4_21.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram4_22.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram4_23.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram4_24.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram4_25.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram4_26.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram4_27.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram4_28.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram4_29.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram4_30.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram5_5.F'
+             elmat1=elmat1+elmat
+            include 'pipirad/hard/diagram5_6.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram5_7.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram5_8.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram5_9.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram5_10.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram5_11.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram5_12.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram5_13.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram5_14.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram5_15.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram5_16.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram5_17.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram5_18.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram5_19.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram5_20.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram5_21.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram5_22.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram5_23.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram5_24.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram5_25.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram5_26.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram5_27.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram5_28.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram5_29.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram5_30.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram6_6.F'
+             elmat1=elmat1+elmat
+            include 'pipirad/hard/diagram6_7.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram6_8.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram6_9.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram6_10.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram6_11.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram6_12.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram6_13.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram6_14.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram6_15.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram6_16.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram6_17.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram6_18.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram6_19.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram6_20.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram6_21.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram6_22.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram6_23.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram6_24.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram6_25.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram6_26.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram6_27.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram6_28.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram6_29.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram6_30.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram7_7.F'
+             elmat1=elmat1+elmat
+            include 'pipirad/hard/diagram7_8.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram7_9.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram7_10.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram7_11.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram7_12.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram7_13.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram7_14.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram7_15.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram7_16.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram7_17.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram7_18.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram7_19.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram7_20.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram7_21.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram7_22.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram7_23.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram7_24.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram7_25.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram7_26.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram7_27.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram7_28.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram7_29.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram7_30.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram8_8.F'
+             elmat1=elmat1+elmat
+            include 'pipirad/hard/diagram8_9.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram8_10.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram8_11.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram8_12.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram8_13.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram8_14.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram8_15.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram8_16.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram8_17.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram8_18.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram8_19.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram8_20.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram8_21.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram8_22.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram8_23.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram8_24.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram8_25.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram8_26.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram8_27.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram8_28.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram8_29.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram8_30.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram9_9.F'
+             elmat1=elmat1+elmat
+            include 'pipirad/hard/diagram9_10.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram9_11.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram9_12.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram9_13.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram9_14.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram9_15.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram9_16.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram9_17.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram9_18.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram9_19.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram9_20.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram9_21.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram9_22.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram9_23.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram9_24.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram9_25.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram9_26.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram9_27.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram9_28.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram9_29.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram9_30.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram10_10.F'
+             elmat1=elmat1+elmat
+            include 'pipirad/hard/diagram10_11.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram10_12.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram10_13.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram10_14.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram10_15.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram10_16.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram10_17.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram10_18.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram10_19.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram10_20.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram10_21.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram10_22.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram10_23.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram10_24.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram10_25.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram10_26.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram10_27.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram10_28.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram10_29.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram10_30.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram11_11.F'
+             elmat1=elmat1+elmat
+            include 'pipirad/hard/diagram11_12.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram11_13.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram11_14.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram11_15.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram11_16.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram11_17.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram11_18.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram11_19.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram11_20.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram11_21.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram11_22.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram11_23.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram11_24.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram11_25.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram11_26.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram11_27.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram11_28.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram11_29.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram11_30.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram12_12.F'
+             elmat1=elmat1+elmat
+            include 'pipirad/hard/diagram12_13.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram12_14.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram12_15.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram12_16.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram12_17.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram12_18.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram12_19.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram12_20.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram12_21.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram12_22.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram12_23.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram12_24.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram12_25.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram12_26.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram12_27.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram12_28.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram12_29.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram12_30.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram13_13.F'
+             elmat1=elmat1+elmat
+            include 'pipirad/hard/diagram13_14.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram13_15.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram13_16.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram13_17.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram13_18.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram13_19.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram13_20.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram13_21.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram13_22.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram13_23.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram13_24.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram13_25.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram13_26.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram13_27.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram13_28.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram13_29.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram13_30.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram14_14.F'
+             elmat1=elmat1+elmat
+            include 'pipirad/hard/diagram14_15.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram14_16.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram14_17.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram14_18.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram14_19.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram14_20.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram14_21.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram14_22.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram14_23.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram14_24.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram14_25.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram14_26.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram14_27.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram14_28.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram14_29.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram14_30.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram15_15.F'
+             elmat1=elmat1+elmat
+            include 'pipirad/hard/diagram15_16.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram15_17.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram15_18.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram15_19.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram15_20.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram15_21.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram15_22.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram15_23.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram15_24.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram15_25.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram15_26.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram15_27.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram15_28.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram15_29.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram15_30.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram16_16.F'
+             elmat1=elmat1+elmat
+            include 'pipirad/hard/diagram16_17.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram16_18.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram16_19.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram16_20.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram16_21.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram16_22.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram16_23.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram16_24.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram16_25.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram16_26.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram16_27.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram16_28.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram16_29.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram16_30.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram17_17.F'
+             elmat1=elmat1+elmat
+            include 'pipirad/hard/diagram17_18.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram17_19.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram17_20.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram17_21.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram17_22.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram17_23.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram17_24.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram17_25.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram17_26.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram17_27.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram17_28.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram17_29.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram17_30.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram18_18.F'
+             elmat1=elmat1+elmat
+            include 'pipirad/hard/diagram18_19.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram18_20.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram18_21.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram18_22.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram18_23.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram18_24.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram18_25.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram18_26.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram18_27.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram18_28.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram18_29.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram18_30.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram19_19.F'
+             elmat1=elmat1+elmat
+            include 'pipirad/hard/diagram19_20.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram19_21.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram19_22.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram19_23.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram19_24.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram19_25.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram19_26.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram19_27.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram19_28.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram19_29.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram19_30.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram20_20.F'
+             elmat1=elmat1+elmat
+            include 'pipirad/hard/diagram20_21.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram20_22.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram20_23.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram20_24.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram20_25.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram20_26.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram20_27.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram20_28.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram20_29.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram20_30.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram21_21.F'
+             elmat1=elmat1+elmat
+            include 'pipirad/hard/diagram21_22.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram21_23.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram21_24.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram21_25.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram21_26.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram21_27.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram21_28.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram21_29.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram21_30.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram22_22.F'
+             elmat1=elmat1+elmat
+            include 'pipirad/hard/diagram22_23.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram22_24.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram22_25.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram22_26.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram22_27.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram22_28.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram22_29.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram22_30.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram23_23.F'
+             elmat1=elmat1+elmat
+            include 'pipirad/hard/diagram23_24.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram23_25.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram23_26.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram23_27.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram23_28.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram23_29.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram23_30.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram24_24.F'
+             elmat1=elmat1+elmat
+            include 'pipirad/hard/diagram24_25.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram24_26.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram24_27.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram24_28.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram24_29.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram24_30.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram25_25.F'
+             elmat1=elmat1+elmat
+            include 'pipirad/hard/diagram25_26.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram25_27.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram25_28.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram25_29.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram25_30.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram26_26.F'
+             elmat1=elmat1+elmat
+            include 'pipirad/hard/diagram26_27.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram26_28.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram26_29.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram26_30.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram27_27.F'
+             elmat1=elmat1+elmat
+            include 'pipirad/hard/diagram27_28.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram27_29.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram27_30.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram28_28.F'
+             elmat1=elmat1+elmat
+            include 'pipirad/hard/diagram28_29.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram28_30.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram29_29.F'
+             elmat1=elmat1+elmat
+            include 'pipirad/hard/diagram29_30.F'
+             elmat1=elmat1+2d0*elmat
+            include 'pipirad/hard/diagram30_30.F'
+             elmat1=elmat1+elmat

@@ -1,0 +1,102 @@
+B0ax150e
+B0ax250e
+C00aex150e0e
+C0aex150e0e
+C11aex150e0e
+C1aex150e0e
+C2aex150e0e
+C00aex250e0e
+C0aex250e0e
+C11aex250e0e
+C1aex250e0e
+C2aex250e0e
+C00aex15x34e0e
+C0aex15x34e0e
+C11aex15x34e0e
+C1aex15x34e0e
+C12aex15x34e0e
+C22aex15x34e0e
+C2aex15x34e0e
+C00aex25x34e0e
+C0aex25x34e0e
+C11aex25x34e0e
+C1aex25x34e0e
+C12aex25x34e0e
+C22aex25x34e0e
+C2aex25x34e0e
+B0ae0e
+A0ae
+B0a0ee
+C0ax150e0ee
+C0ax250e0ee
+C0aex12e0ee
+C1aex12e0ee
+C0ax15x34e0ee
+C1ax15x34e0ee
+C0ax25x34e0ee
+C1ax25x34e0ee
+D00aeex340x12x15e0ee
+D0aeex340x12x15e0ee
+D001aeex340x12x15e0ee
+D111aeex340x12x15e0ee
+D11aeex340x12x15e0ee
+D1aeex340x12x15e0ee
+D002aeex340x12x15e0ee
+D112aeex340x12x15e0ee
+D12aeex340x12x15e0ee
+D122aeex340x12x15e0ee
+D22aeex340x12x15e0ee
+D2aeex340x12x15e0ee
+D003aeex340x12x15e0ee
+D113aeex340x12x15e0ee
+D13aeex340x12x15e0ee
+D123aeex340x12x15e0ee
+D223aeex340x12x15e0ee
+D23aeex340x12x15e0ee
+D133aeex340x12x15e0ee
+D233aeex340x12x15e0ee
+D3aeex340x12x15e0ee
+D00aeex340x12x25e0ee
+D0aeex340x12x25e0ee
+D001aeex340x12x25e0ee
+D111aeex340x12x25e0ee
+D11aeex340x12x25e0ee
+D1aeex340x12x25e0ee
+D002aeex340x12x25e0ee
+D112aeex340x12x25e0ee
+D12aeex340x12x25e0ee
+D122aeex340x12x25e0ee
+D22aeex340x12x25e0ee
+D2aeex340x12x25e0ee
+D003aeex340x12x25e0ee
+D113aeex340x12x25e0ee
+D13aeex340x12x25e0ee
+D123aeex340x12x25e0ee
+D223aeex340x12x25e0ee
+D23aeex340x12x25e0ee
+D133aeex340x12x25e0ee
+D233aeex340x12x25e0ee
+D3aeex340x12x25e0ee
+C1ax12x340eee
+C0a0x12x34eee
+
+
+
+
+
+
+	Complex*16 C0ax150e0ee
+	Complex*16 C0ax250e0ee
+	
+	Complex*16 C0aex12e0ee
+	Complex*16 C1aex12e0ee
+	
+	Complex*16 C0ax15x34e0ee
+	Complex*16 C1ax15x34e0ee
+	
+	Complex*16 C0ax25x34e0ee
+	Complex*16 C1ax25x34e0ee
+
+	Complex*16 C1ax12x340eee
+	Complex*16 C0a0x12x34eee
+	

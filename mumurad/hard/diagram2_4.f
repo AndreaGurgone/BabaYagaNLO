@@ -1,0 +1,102 @@
+        elmat = (CONJG(alphaFS)*alphaFS*5.D-1*
+     &    (amu**2*kp2*kq*p1p3 + amu**2*kp2*kq*p1p4 + 
+     &      amu**2*kp1*kq*p2p3 + amu**2*kp1*kq*p2p4 + 
+     &      amu**2*kp2*p1q*p3q + amu**2*kp1*p2q*p3q + 
+     &      amu**2*kp2*p1q*p4q + amu**2*kp1*p2q*p4q - 
+     &      amu**2*kq*p1q*p2p3*1D0 - amu**2*kq*p1q*p2p4*1D0 - 
+     &      amu**2*kq*p1p3*p2q*1D0 - amu**2*kq*p1p4*p2q*1D0 + 
+     &      ame**2*amu**2*kq**2*2D0 + amu**4*kp2*p1q*2D0 + 
+     &      amu**2*kp2*kq*p1q*2D0 + amu**4*kp1*p2q*2D0 + 
+     &      amu**2*kp1*kq*p2q*2D0 - amu**2*kp2*p1q*p3p4*2D0 - 
+     &      amu**2*kp1*p2q*p3p4*2D0 + kp2*p1p3*p3p4**2*2D0 + 
+     &      kp2*p1p4*p3p4**2*2D0 + kp1*p2p3*p3p4**2*2D0 + 
+     &      p1q*p2p3*p3p4**2*2D0 + kp1*p2p4*p3p4**2*2D0 + 
+     &      p1q*p2p4*p3p4**2*2D0 + p1p3*p2q*p3p4**2*2D0 + 
+     &      p1p4*p2q*p3p4**2*2D0 - amu**2*kp1*kp2*p3q*2D0 - 
+     &      amu**2*kp2*p1p3*p3q*2D0 + 
+     &      amu**2*kp2*p1p4*p3q*2D0 - 
+     &      amu**2*kp1*p2p3*p3q*2D0 + 
+     &      amu**2*kp1*p2p4*p3q*2D0 + 
+     &      ame**2*amu**2*p3p4*p3q*2D0 + 
+     &      amu**2*p1p2*p3p4*p3q*2D0 + 
+     &      p1p4*p2p3*p3p4*p3q*2D0 + p1p3*p2p4*p3p4*p3q*2D0 - 
+     &      amu**2*kp1*kp2*p4q*2D0 + 
+     &      amu**2*kp2*p1p3*p4q*2D0 - 
+     &      amu**2*kp2*p1p4*p4q*2D0 + 
+     &      amu**2*kp1*p2p3*p4q*2D0 - 
+     &      amu**2*kp1*p2p4*p4q*2D0 + 
+     &      ame**2*amu**2*p3p4*p4q*2D0 + 
+     &      amu**2*p1p2*p3p4*p4q*2D0 + 
+     &      p1p4*p2p3*p3p4*p4q*2D0 + p1p3*p2p4*p3p4*p4q*2D0 + 
+     &      kp4**2*2D0*(p1p4*p2p3 + ame**2*amu**2*2D0 + 
+     &         amu**2*p1p2*2D0 + ame**2*p3p4*2D0 + 
+     &         p1p3*(p2p4 - p2p3*2D0)) + 
+     &      kp3**2*2D0*(p1p3*p2p4 + ame**2*amu**2*2D0 + 
+     &         amu**2*p1p2*2D0 + ame**2*p3p4*2D0 + 
+     &         p1p4*(p2p3 - p2p4*2D0)) + 
+     &      amu**2*kq*p1p3*p2p3*4D0 - 
+     &      amu**2*kq*p1p4*p2p3*4D0 - 
+     &      amu**2*kq*p1p3*p2p4*4D0 + 
+     &      amu**2*kq*p1p4*p2p4*4D0 - 
+     &      amu**2*kp1*kp2*p3p4*4D0 - 
+     &      amu**2*p1q*p2q*p3p4*4D0 + 
+     &      amu**2*p1p2*p3p4**2*4D0 + kq*p1p2*p3p4**2*4D0 + 
+     &      p1p4*p2p3*p3p4**2*4D0 + p1p3*p2p4*p3p4**2*4D0 + 
+     &      ame**2*p3p4**3*4D0 - p1p4*p2p4*p3p4*p3q*4D0 + 
+     &      ame**2*p3p4**2*p3q*4D0 - p1p3*p2p3*p3p4*p4q*4D0 + 
+     &      ame**2*p3p4**2*p4q*4D0 - ame**2*amu**4*kq*6D0 - 
+     &      amu**4*kq*p1p2*6D0 + ame**2*amu**2*kq*p3p4*6D0 + 
+     &      amu**2*kq*p1p2*p3p4*6D0 + 
+     &      ame**2*amu**2*p3p4**2*8D0 + 
+     &      ame**2*kq*p3p4**2*8D0 + 
+     &      kp4*(amu**2*kp2*p1q + amu**2*kp1*p2q + 
+     &         amu**2*kp2*p1p3*2D0 - amu**2*kp2*p1p4*2D0 + 
+     &         amu**2*kp1*p2p3*2D0 - amu**2*p1p4*p2p3*2D0 - 
+     &         amu**2*p1q*p2p3*2D0 - amu**2*kp1*p2p4*2D0 - 
+     &         amu**2*p1p3*p2p4*2D0 - amu**2*p1q*p2p4*2D0 - 
+     &         amu**2*p1p3*p2q*2D0 - amu**2*p1p4*p2q*2D0 - 
+     &         amu**2*p1q*p2q*2D0 + kp2*p1p3*p3p4*2D0 + 
+     &         kp2*p1p4*p3p4*2D0 + kp1*p2p3*p3p4*2D0 + 
+     &         p1q*p2p3*p3p4*2D0 + kp1*p2p4*p3p4*2D0 + 
+     &         p1q*p2p4*p3p4*2D0 + p1p3*p2q*p3p4*2D0 + 
+     &         p1p4*p2q*p3p4*2D0 - ame**2*amu**2*p3q*2D0 + 
+     &         p1p4*p2p3*p3q*2D0 + p1p3*p2p4*p3q*2D0 + 
+     &         ame**2*amu**2*p4q*2D0 + p1p4*p2p3*p4q*2D0 + 
+     &         p1p3*p2p4*p4q*2D0 + 
+     &         kq*2D0*(ame**2*amu**2 + 
+     &            p3p4*2D0*(p1p2 + ame**2*2D0)) - 
+     &         amu**2*p1p2*2D0*
+     &          (amu**2 - p4q*2D0 - p3p4*3D0) - 
+     &         ame**2*amu**4*4D0 - p1p3*p2p3*p3p4*4D0 - 
+     &         p1p4*p2p4*p3q*4D0 + ame**2*p3p4*p3q*4D0 - 
+     &         p1p3*p2p3*p4q*4D0 + ame**2*p3p4*p4q*4D0 + 
+     &         p1p4*p2p3*p3p4*6D0 + p1p3*p2p4*p3p4*6D0 + 
+     &         ame**2*amu**2*p3p4*8D0 + ame**2*p3p4**2*8D0) + 
+     &      kp3*(amu**2*kp2*p1q + amu**2*kp1*p2q - 
+     &         amu**2*kp2*p1p3*2D0 + amu**2*kp2*p1p4*2D0 - 
+     &         amu**2*kp1*p2p3*2D0 - amu**2*p1p4*p2p3*2D0 - 
+     &         amu**2*p1q*p2p3*2D0 + amu**2*kp1*p2p4*2D0 - 
+     &         amu**2*p1p3*p2p4*2D0 - amu**2*p1q*p2p4*2D0 - 
+     &         amu**2*p1p3*p2q*2D0 - amu**2*p1p4*p2q*2D0 - 
+     &         amu**2*p1q*p2q*2D0 + kp2*p1p3*p3p4*2D0 + 
+     &         kp2*p1p4*p3p4*2D0 + kp1*p2p3*p3p4*2D0 + 
+     &         p1q*p2p3*p3p4*2D0 + kp1*p2p4*p3p4*2D0 + 
+     &         p1q*p2p4*p3p4*2D0 + p1p3*p2q*p3p4*2D0 + 
+     &         p1p4*p2q*p3p4*2D0 + ame**2*amu**2*p3q*2D0 + 
+     &         p1p4*p2p3*p3q*2D0 + p1p3*p2p4*p3q*2D0 - 
+     &         ame**2*amu**2*p4q*2D0 + p1p4*p2p3*p4q*2D0 + 
+     &         p1p3*p2p4*p4q*2D0 + 
+     &         kq*2D0*(ame**2*amu**2 + 
+     &            p3p4*2D0*(p1p2 + ame**2*2D0)) - 
+     &         amu**2*p1p2*2D0*
+     &          (amu**2 - p3q*2D0 - p3p4*3D0) - 
+     &         ame**2*amu**4*4D0 - kp4*p1p3*p2p3*4D0 + 
+     &         kp4*p1p4*p2p3*4D0 + kp4*p1p3*p2p4*4D0 - 
+     &         kp4*p1p4*p2p4*4D0 - p1p4*p2p4*p3p4*4D0 - 
+     &         p1p4*p2p4*p3q*4D0 + ame**2*p3p4*p3q*4D0 - 
+     &         p1p3*p2p3*p4q*4D0 + ame**2*p3p4*p4q*4D0 + 
+     &         p1p4*p2p3*p3p4*6D0 + p1p3*p2p4*p3p4*6D0 + 
+     &         ame**2*amu**2*p3p4*8D0 + ame**2*kp4*p3p4*8D0 + 
+     &         ame**2*p3p4**2*8D0))*1.d0)/
+     &  (1.D0*kp3*kp4*(ame**2 + p1p2)**2*(kp3 + kq + p3q)*
+     &    (kp4 + kq + p4q))
