@@ -164,7 +164,7 @@ sv.o: sv.F $(EXTRADEPS) Makefile $(CLLDIR)/lib/libcollier.a
 	$(F77) -c 2loop.F
 hplog.o: 2loop/hplog.F $(EXTRADEPS)
 	$(F77) -c 2loop/hplog.F
-userinterface.o: userinterface.F $(EXTRADEPS)
+userinterface.o: userinterface.F $(EXTRADEPS) collier
 	$(F77) $(DEXP) $(RECOLA) -c userinterface.F
 phasespace.o: phasespace.F $(EXTRADEPS) strong2020common.F
 	$(F77) -c $(DEXP) phasespace.F
@@ -196,7 +196,7 @@ sampling.o: sampling.F $(EXTRADEPS) strong2020common.F
 	$(F77) -c $(DEXP) sampling.F
 loops.o: loops.F $(EXTRADEPS) $(CLLDIR)/lib/libcollier.a
 	$(F77) -c $(COLLIER) $(CLLMOD) $(QUADTYPE) loops.F
-routines.o: routines.F $(EXTRADEPS)
+routines.o: routines.F $(EXTRADEPS) collier
 	$(F77) $(COLLIER) $(CLLMOD) -c routines.F
 distributions.o: distributions.F shared.F $(EXTRADEPS) Makefile strong2020common.F
 	$(F77) $(DEXP) -c distributions.F

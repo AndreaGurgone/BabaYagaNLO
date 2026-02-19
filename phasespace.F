@@ -1496,6 +1496,9 @@ c     cis = cis * (regf(1,k) + regf(2,k))
 
       double complex ff
 
+      common/warning_ffpi/iffpiwarning,iprintffpiwarn
+
+      
       double precision mres(10),gres(10),xxx(10),gresee(10)
       double precision mres2(10),gres2(10)
       double precision rescale(10)
@@ -1594,7 +1597,8 @@ c     gres(1) = 0.14832d0
             vbar2(k) = vbar(k) *vbar(k)
          enddo
 
-         if (lcond) then
+         if (lcond) then                        
+            iprintffpiwarn = 0
             call ffpi(mres2(1),ff,ff2)
             vbar2(1) = gres(1)/mres(1)*ff2
             call ffpi(mres2(2),ff,ff2)
@@ -1605,6 +1609,7 @@ c     gres(1) = 0.14832d0
                call ffpi(mres2(k),ff,ff2)
                vbar2(k) = 9d0*(gres(k)/mres(k)/alp)**2*ff2
             enddo
+            iprintffpiwarn = 1
          endif
 
          ifirst = 1

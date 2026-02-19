@@ -1400,24 +1400,25 @@
 
       double precision q2,q2_max
 
-      integer iffpiwarning,warn_max
-      data iffpiwarning /0/
+      integer iffpiwarning,warn_max,iprintffpiwarn
+      common/warning_ffpi/iffpiwarning,iprintffpiwarn
+      data iffpiwarning,iprintffpiwarn /0,1/
 
       warn_max = 10
 
-      if(q2.gt.q2_max.and.iffpiwarning.lt.warn_max) then
-         print*, 'Warning: Pion form factor out of energy range (s =',
-     &           q2, 'GeV^2 > s_max =', q2_max, 'GeV^2)'
-
-         iffpiwarning = iffpiwarning + 1
-
-         if(iffpiwarning.eq.warn_max) then
-            print*, 'Suppressing further warnings on the pion form ',
+      if (iprintffpiwarn.eq.1) then
+         if(q2.gt.q2_max.and.iffpiwarning.lt.warn_max) then
+            print*, 'Warning: Pion form factor out of energy range (s ='
+     &           ,q2, 'GeV^2 > s_max =', q2_max, 'GeV^2)'
+            
+            iffpiwarning = iffpiwarning + 1
+            
+            if(iffpiwarning.eq.warn_max) then
+               print*, 'Suppressing further warnings on the pion form ',
      &              'factor range... be careful!'
+            endif
          endif
-
       endif
-
       return
       end
 
