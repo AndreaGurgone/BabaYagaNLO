@@ -30,7 +30,6 @@
       thminp = pi - thmaxe
       thmaxp = pi - thmine
 
-
       icut = 1 ! event rejected
 
       pm  = sqrt(tridot(p1,p1))
