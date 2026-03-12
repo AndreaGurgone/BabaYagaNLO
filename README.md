@@ -95,8 +95,11 @@ run.
 	- `mr` &rarr; $e^+e^-\to \mu^+\mu^-\gamma$.
 	- `pr` &rarr; $e^+e^-\to \pi^+\pi^-\gamma$.
 - `ecms` &rarr; center of mass energy, in GeV
-- `thmin` &rarr; minimum scattering angle for leptons (pions) in the final state, in degrees
-- `thmax` &rarr; maximum scattering angle for leptons (pions) in the final state, in degrees
+- `thmin` &rarr; minimum scattering angle for negative charged leptons (pions) in the final state, in degrees
+- `thmax` &rarr; maximum scattering angle for negative charged leptons
+  (pions) in the final state, in degrees  
+  &emsp;&emsp;&emsp;&emsp;&emsp;(positive charged leptons or pions are cut between $pi$`-thmin`
+  and $pi$`-thmax`)
 - `thgmin` &rarr; minimum scattering angle for the signal photon, in degrees
 - `thgmax` &rarr; maximum scattering angle for for the signal photon, in degrees
 - `zmax` &rarr; maximum acollinearity angle between finale state leptons/photons, in degrees
