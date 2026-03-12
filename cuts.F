@@ -27,8 +27,8 @@
 
       thmine = thmin
       thmaxe = thmax
-      thminp = thmin
-      thmaxp = thmax
+      thminp = pi - thmaxe
+      thmaxp = pi - thmine
 
 
       icut = 1 ! event rejected
@@ -42,8 +42,8 @@
       thp = acos(cp)
 
 !!!!!!!!!!CUT ON CHARGED FS LEPTONS
-      if (thm.lt.thmin.or.thm.gt.thmax) return
-      if (thp.lt.thmin.or.thp.gt.thmax) return
+      if (thm.lt.thmine.or.thm.gt.thmaxe) return
+      if (thp.lt.thminp.or.thp.gt.thmaxp) return
 
 !!!!!!!!!!CUT ON CHARGED ENERGY
       if(p1(0).le.emin) return
