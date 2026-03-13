@@ -98,8 +98,8 @@ run.
 - `thmin` &rarr; minimum scattering angle for negative charged leptons (pions) in the final state, in degrees
 - `thmax` &rarr; maximum scattering angle for negative charged leptons
   (pions) in the final state, in degrees  
-  &emsp;&emsp;&emsp;&emsp;&emsp;(positive charged leptons or pions are cut between $\pi$`-thmin`
-  and $\pi$`-thmax`)
+  &emsp;&emsp;&emsp;&emsp;&emsp;(positive charged leptons or pions are cut between 180&deg;-`thmax`
+  and 180&deg;-`thmin`)
 - `thgmin` &rarr; minimum scattering angle for the signal photon, in degrees
 - `thgmax` &rarr; maximum scattering angle for for the signal photon, in degrees
 - `zmax` &rarr; maximum acollinearity angle between finale state leptons/photons, in degrees
